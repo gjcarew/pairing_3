@@ -6,3 +6,14 @@ arr_1.each do |int|
   end
 end
 #
+puts "================="
+
+def under_60(num)
+  num.each do |int|
+    if int < 60
+      puts int
+    end
+  end
+end
+
+under_60(arr_1)
